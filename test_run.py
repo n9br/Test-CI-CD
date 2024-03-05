@@ -12,6 +12,9 @@ class TestAdd(unittest.TestCase):
     def test_add_function_with_floats(self):
         self.assertAlmostEqual(add(2.1, 5.2), 7.3)
 
+    def test_add_function_with_floats(self):
+        self.assertEqual(add(2.1, 5.2), 7.3)
+
 
 if __name__ == "__main__":
     unittest.main()
